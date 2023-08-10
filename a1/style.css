@@ -1,0 +1,30 @@
+/* CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: 'Work Sans';
+    src: url(fonts/WorkSans-Regular.ttf);
+  }
+  
+  body {
+    color: #eee697;
+    background-color: #458933;
+    font-family: monospace;
+  
+  nav {
+    margin: auto;
+    font-family:'Work Sans';
+  }
+  
+h1 {
+    max-width: fit-content;
+    font-size: 3rem;
+    margin: 25px auto;
+    margin-bottom: 50px;
+    
+  }
+
