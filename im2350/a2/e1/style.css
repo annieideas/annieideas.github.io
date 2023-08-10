@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --col01: rgb(224,217,207);
+    --col02: rgb(248,165,147);
+    --col03: rgb(234, 94, 61);
+    --col04: rgb(124, 122, 127);
+    --col05: rgb(47, 46, 78);
+    --border: solid 5px var(--col04);
+}
+
+
+.FlexExWrapper{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 10px
+  }
+  
+  #example-one{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    
+  }
+  #example-two{
+    background-color: var(--col01);
+    flex-grow: 3;
+    border: solid 3px var(--col04)
+  }
+
+  .nested-example{
+    background-color: var(--col02);
+    height: 60%;
+    margin-top: 8%;
+    padding: 8%;
+    display: flex;
+    align-items: center;
+  }

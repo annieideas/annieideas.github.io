@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin:0
+}
+
+:root{
+
+    --col01: rgb(0,0,0);
+    --col02: rgba(28, 35, 181, 0.622);
+    --col03: rgba(204, 204, 204, 0.622);
+    --border: solid 5px var(--col01);
+
+}
+
+h1{
+    border: var(--border);
+    color: var(--col02);
+    border-radius: 1000000000p;
+}
+
+h3{
+    border: var(--border);
+    background-image: linear-gradient(var(--col02), var(--col03));
+}
